@@ -1,12 +1,14 @@
 .impar { background-color: rgb(235, 85, 85);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 
 }
 
-.Segundo_elemento{ color: rgb(35, 35, 245);
+#segundo_elemento{ color: rgb(35, 35, 245);
     font-size: 36px;
 
 }
+
+/* Esta fue mi forma de hacerlo, luego cuando vi la solucion me di cuenta que podia hacer una clase mas para no repetir el tamaño de la letra
 
 .impar#Tercer_elemento{ font-size: 24px;
 
@@ -15,5 +17,13 @@
 .cuarto_elemento {font-size: 24px;
     background-color: rgb(47, 219, 47);
     font-weight: bold;
+
+}
+*/
+
+.Tamaño_letra { font-size: 24px;
+}
+
+#cuarto_elemento { background-color: rgb(55, 224, 55);
 
 }
